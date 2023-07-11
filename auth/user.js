@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 async function main() {
-  await mongoose.connect(process.env.ATLAS_CONNECTION); //temporary
+  await mongoose.connect(process.env.ATLAS_CONNECTION); 
 }
 main().catch(err => console.log(err));
 
