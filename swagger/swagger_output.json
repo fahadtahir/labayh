@@ -2,10 +2,10 @@
   "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "REST API",
-    "description": ""
+    "title": "LABAYH APIs",
+    "description": "Restaurant Management"
   },
-  "host": "localhost:3000",
+  "host": "localhost:80",
   "basePath": "/",
   "schemes": [
     "http"
